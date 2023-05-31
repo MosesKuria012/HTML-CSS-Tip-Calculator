@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Tip Calculator</h1>
+    </header>
+    <main class="main">
+      <section class="first-section">
+        <div>
+          <label>Bill</label>
+          <input type="number" class="bill-input" />
+        </div>
+        <label class="select-tip">Select Tip %</label>
+        <div class="grid-container">
+          <div class="item">5%</div>
+          <div class="item">10%</div>
+          <div class="item">15%</div>
+          <div class="item">25%</div>
+          <div class="item">50%</div>
+          <div>
+            <input
+              type="number"
+              placeholder="CUSTOM"
+              class="item-custom"
+              id="custom"
+            />
+          </div>
+        </div>
+        <div class="peoplelabel">
+          <label>Number of People</label>
+        </div>
+        <input type="number" placeholder="0" class="number-of-people" />
+      </section>
+      <section class="second-section">
+        <div class="tip-amount">
+          <div class="text">
+            <h3>Tip Amount</h3>
+            <p class="per-person">/person</p>
+          </div>
+          <p class="tip-total">$0.00</p>
+        </div>
+        <div class="total">
+          <div class="text">
+            <h3>Total</h3>
+            <p class="per-person">/person</p>
+          </div>
+          <p class="tip-total">$0.00</p>
+        </div>
+        <div class="reset">Reset</div>
+      </section>
+    </main>
+  </body>
+</html>
